@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(135deg, #d4a5a5, #ff9a8b);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    max-width: 360px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #444;
+}
+
+.timer {
+    font-size: 3rem;
+    margin: 20px 0;
+    color: #222;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.controls button {
+    background: #ff9a8b;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    margin: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.controls button:hover {
+    background: #d4a5a5;
+    transform: scale(1.05);
+}
+
+.settings {
+    margin-top: 20px;
+}
+
+.settings label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.settings input {
+    padding: 8px;
+    font-size: 0.9rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 60px;
+    text-align: center;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.settings input:focus {
+    background: #fff;
+    color: #333;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    outline: none;
+}
+
+.settings input:hover {
+    box-shadow: 0 0 8px rgba(255, 165, 0, 0.8);
+}
